@@ -60,7 +60,7 @@ install clasp
 `yarn global add clasp` or `npm i -g clasp`  
 
 setup clasp  
-`clasp install`  and `clasp login`
+`clasp login`
 
 ### Setting your Project Properties on GAS
 Set GAS Project Properties to use [Properties Service](https://developers.google.com/apps-script/reference/properties)

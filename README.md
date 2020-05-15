@@ -65,13 +65,11 @@ setup clasp
 ### Setting your Project Properties on GAS
 Set GAS Project Properties to use [Properties Service](https://developers.google.com/apps-script/reference/properties)
 
-- SLACK_WEBHOOK_URL
+- SLACK_WEBHOOK_URL  
 slack incoming webhook to post message
-
-- BIGQUERY_PROJECT_ID
+- BIGQUERY_PROJECT_ID  
 your BigQuery Project ID
-
-- BIGQUERY_TABLE_NAME
+- BIGQUERY_TABLE_NAME  
 your BigQuery Table  eg.) analytics_xxxxxxxxxx.events
 
 

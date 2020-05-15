@@ -1,0 +1,21 @@
+{
+  "name": "gas-slackbot-bizapp-bigquery",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "push": "clasp push"
+  },
+  "author": "kota_tomoyasu<kota.tomoyasu@gmailbizreach.co.jp>",
+  "dependencies": {
+    "@slack/web-api": "^5.8.1"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.14",
+    "@types/node": "^13.13.4",
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "typescript": "^3.8.3"
+  }
+}

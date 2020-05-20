@@ -13,7 +13,7 @@ export default class QueryResultParser {
   ): Map<string, string> {
     return row.f.reduce((acc, cell, index) => {
       const field = fields[index].name;
-      acc[field] = cell.v.toString();
+      acc[field] = cell.v ? cell.v.toString() : "";
       return acc;
     }, new Map<string, string>());
   }
